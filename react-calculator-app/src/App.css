@@ -1,0 +1,32 @@
+/* ボタンのグリッドレイアウト設定 */
+.buttons-grid {
+  display: grid; /* グリッドレイアウト */
+  grid-template-columns: repeat(4, 100px); /* 列の定義: 4列、各列の幅60px */
+  grid-auto-rows: 50px; /* 各行の縦の長さを50pxにする */
+  gap: 8px; /* グリッド間の隙間 */
+  
+}
+
+.buttons-grid button{
+  font-size: 40px;
+}
+
+.calculator-container{
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.title {
+  color: black;
+}
+
+.display {
+  padding: 20px 0px;
+  border: 1px solid black;
+  margin: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
